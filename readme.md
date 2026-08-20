@@ -22,7 +22,9 @@ Ensure you have Python 3 installed. No external pip libraries are required (uses
 
 ### 2. Prepare Your CSV File
 
-Format your course schedule CSV with columns corresponding to your course structure. Use the included `GIS4GS.csv` as a template or reference for your own layout.
+Format your course schedule CSV with columns corresponding to your course structure. Use the included `GIS4GS.csv` as a template or reference for your layout.
+
+> **Important:** Do not rename the CSV column headers (e.g., `Week`, `Date`, `Theme`, `Topic`, `Assignments`). The Python script relies on these exact header names to build the map hierarchy. If you change the column titles in your CSV, you will need to update the corresponding dictionary keys inside `csv2mm.py`.
 
 ### 3. Edit and Run the Script
 
@@ -61,6 +63,12 @@ To test or edit your Markdown map interactively in a browser without running cod
 1. Go to [Markmap REPL](https://markmap.js.org/repl).
 2. Press `<ctrl>` + `<a>` to select all the text in the left-hand pane and press `<delete>`.
 3. Drag and drop your `GIS4GS.md` file into that left-hand panel. Your mind map will appear in the right-hand panel.
+
+---
+
+## Troubleshooting
+
+**KeyError when running `csv2mm.py`:** Check your CSV column headers. Ensure they match the exact spelling and casing expected by the script (`Week`, `Date`, `Theme`, `Topic`, `Assignments`).
 
 ---
 
