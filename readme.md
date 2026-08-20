@@ -59,7 +59,7 @@ To edit node layouts, colors, or icons manually on your computer:
 ### Live Web Preview & Quick Tweaks (`.md`)
 To test or edit your Markdown map interactively in a browser without running code:
 1. Go to [Markmap REPL](https://markmap.js.org/repl).
-2. Press `<Ctrl>` + `<A>` to select all the text in the left-hand pane and press `<Delete>`.
+2. Press `<ctrl>` + `<a>` to select all the text in the left-hand pane and press `<delete>`.
 3. Drag and drop your `GIS4GS.md` file into that left-hand panel. Your mind map will appear in the right-hand panel.
 
 ---
