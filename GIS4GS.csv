@@ -1,0 +1,70 @@
+Theme,Week,Date,Topic,Materials,Assessment,Notes
+Prologue in Analog,1,"Tue, 25 Aug","Field Day: Paper Map, Compass, Declination & Strava Tracking
+Pacing, bearings, spatial coordinates on paper","Map and Compass, Cell phone with Strava or Gaia GPS app installed","Assigned: placeholder 1
+Due: placeholder 2",test note
+GIS Basics,1,"Thu, 27 Aug","First Look at QGIS & GPX Import (Strava Tracks)
+Basic Categorized/Single Symbol styling; Exporting .qml style files
+Data Hygiene","Strava Website
+QGIS Desktop
+OneDrive Class Resources",,"Cover where to find classroom data, where to store personal data.
+Warnings about shapefiles, and zip files: why geopackages are the best solution."
+GIS Basics,2,"Tue, 01 Sep","TIGER Line Files & Vector Aggregations
+Block Groups, Dissolve to Counties/State (including Dissolve vs Aggregate processes); Graduated Symbology
+Fixing Data/Fixing geographies, spatial indexing",Censu.gov,"
+Due: Placeholder 1",
+GIS Basics,2,"Thu, 03 Sep","Census API & Table Joins
+Choropleth mapping, data classification (Jencks, Equal Interval), saving styles to GeoPackage
+Begin Vector Geoprocessing","Census.gov website and API Key
+Vermont-o-Rama data",Assigned: County Choropleth for your chosen/assigned staate,
+GIS Basics,3,"Tue, 08 Sep","Vector Geoprocessing: merge; append; intersect; buffer; compute distance, etc.",Vermont-o-Rama data,,
+GIS Basics,3,"Thu, 10 Sep","Raster Basics: DEMs, Hillshades & Slope
+Singleband Pseudocolor, Hillshade blend modes, saving raster .qml styles",,"
+Due: County Choropleth",
+GIS Basics,4,"Tue, 15 Sep","Basics Capstone: Fast-track Print Layout
+Combining vector/raster styles into a clean demographic map layout",,,
+Beyond the Basics,4,"Thu, 17 Sep","Dynamic Web Data: Connecting to WMS, WFS, WCS, and ArcGIS REST
+Symbology limitations in WMS vs. styling WFS streams locally",,,
+Beyond the Basics,5,"Tue, 22 Sep","Custom Tabular Data & 1-to-Many Joins
+Constructing clean relational tables, dynamic aggregate styling",,,
+Beyond the Basics,5,"Thu, 24 Sep","Advanced Vector Geoprocessing
+Convex/Concave Hulls, Voronoi Polygons, Distance Matrices, networks",,,
+Beyond the Basics,6,"Tue, 29 Sep","Raster Lookup Tables (LUT) & Reclassification
+Mapping land cover codes to custom color palettes using LUT spreadsheets",,,
+Beyond the Basics,6,"Thu, 01 Oct","Rasterizing polygons, polygonizing rasters, and doing raster calculations",,,
+Beyond the Basics,7,"Tue, 06 Oct","NO CLASS MEETING
+Fall Reading Day",,,
+Beyond the Basics,7,"Thu, 08 Oct","Spatial Statistics & Heatmaps
+Kernel Density Estimation (KDE) color ramps & point density rendering",,,
+Beyond the Basics,8,"Tue, 13 Oct","Network Analysis (QNEAT3)
+Service area gradient fills, shortest path flow rendering",,,
+Beyond the Basics,8,"Thu, 15 Oct",Project Brainstorming: What problems do we want to address?  What are the spatial features or dimensions of the problem?  What general direction would our analysis go?,,,
+Beyond the Basics,9,"Tue, 20 Oct","Advanced Cartography I: Scale-dependence, opacity, blending, et al.
+The QGIS Atlas Engine: Automating multi-page map books driven by coverage layer attributes",,,
+Beyond the Basics,9,"Thu, 22 Oct","Advanced Cartography II: Temporal Controller
+Time-series animations using temporal symbology shifts",,,
+Beyond the Basics,10,"Tue, 27 Oct","Team Project Launch & Workflow Planning
+Project scoping, data pipelines, and database structure design",,,
+Applied Workshop,10,"Thu, 29 Oct","Automation I: QGIS Graphical Modeler
+Chaining geoprocessing steps and automated style assignment into reusable models",,,
+Applied Workshop,11,"Tue, 03 Nov","NO CLASS MEETING
+Election Day",,,
+Applied Workshop,11,"Thu, 05 Nov","Automation II: Batch Processing
+Executing modeler workflows and style application across entire folders of data",,,
+Applied Workshop,12,"Tue, 10 Nov","OpenStreetMap & Web Data Extraction (QuickOSM)
+Extracting OSM features; Prep for Asynchronous Thanksgiving Assignment",,,
+Applied Workshop,12,"Thu, 12 Nov","Intro to PyQGIS: Processing Citizen Science Data
+Writing Python scripts to parse, clean, and auto-style the Thanksgiving field data",,,
+Applied Workshop,13,"Tue, 17 Nov","Spatial SQL & Database Integration
+SpatiaLite / PostGIS queries, managing multiple GeoPackage embedded styles via SQL",,,
+Applied Workshop,13,"Thu, 19 Nov","In-Class Project Lab: PyQGIS & Troubleshooting
+Geometry repair (Fix Geometries), CRS issues, script execution",,,
+Applied Workshop,14,"Tue, 24 Nov","NO CLASS MEETING: FIELD DATA CAPTURE (Asynchronous)
+Citizen Science Data Collection",iNaturalist/Epicollect/KoboToolbox/AnecData/MerlinID),,
+Applied Workshop,14,"Thu, 26 Nov","NO CLASS MEETING
+Thanksgiving Day
+Mandatory Team Office Hour check-in over the weekend",,,
+Applied Workshop,15,"Tue, 01 Dec",Team Presentations 1,,,
+Applied Workshop,15,"Thu, 03 Dec",Team Presentations 2,,,
+Applied Workshop,16,"Tue, 08 Dec",Citizen Science PyQGIS Synthesis Lab,,,"- Load combined ~300 AnecData points from M21 field exercise
+    - Run PyQGIS summary script & apply automated .qml hazard styling
+    - Final course wrap-up and reflection"
